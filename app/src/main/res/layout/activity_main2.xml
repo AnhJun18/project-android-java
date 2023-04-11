@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="100dp"/>
+    <EditText
+
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:id="@+id/edtUserName"
+        style="@style/style_edittext"
+        android:hint="@string/edtUserName"
+        android:textColorHint="@color/color_hint"/>
+    <EditText
+
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:background="@drawable/custom_editext"
+        android:id="@+id/edtPass"
+        android:textColorHint="@color/color_hint"
+        style="@style/style_edittext"
+        android:hint="@string/edtPass"
+        />
+
+    <CheckBox
+        android:id="@+id/cbSavePass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ghi nho mat khau"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/btnLogin"
+            style="@style/button"
+            android:background="@drawable/custom_button"
+            android:text="Dang nhap" />
+
+        <Button
+            android:background="@drawable/custom_button"
+            style="@style/button"
+            android:id="@+id/btnLogout"
+            android:text="Dang xuat"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/custom_button"
+        android:id="@+id/fabTiengViet"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/custom_button"
+        android:id="@+id/fabSitting"/>
+</FrameLayout>

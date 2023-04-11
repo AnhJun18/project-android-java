@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8CC1D1"
+        android:text="Thông tin cá nhân" android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/edtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="    Nhạp Thông tin"
+        android:textColorHint="#0420D8"
+        android:drawableLeft="@drawable/ic_info"/>
+    <EditText
+        android:id="@+id/edtCMND"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="     Nhạp CMND"
+        android:textColorHint="#0420D8"
+        android:drawableLeft="@drawable/ic_tt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8CC1D1"
+        android:text="Bằng Cấp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/rgBangCap"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đại học"
+            android:checked="true"
+            android:id="@+id/radDaiHoc"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cao Đẳng"
+            android:id="@+id/radCaoDang"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trung Cấp"
+            android:id="@+id/radTrungCap"/>
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8CC1D1"
+        android:text="Sở thích"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/cbGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chơi Game"/>
+        <CheckBox
+            android:id="@+id/cbSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đọc sách"/>
+        <CheckBox
+            android:id="@+id/cbDocBao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đọc báo"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8CC1D1"
+        android:text="Thông tin Khác"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_rate_review_24"
+        android:hint="Nhập thông tin khác......."
+        android:layout_weight="1"
+        android:id="@+id/edtTTK"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi"
+        android:id="@+id/btnSend"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:padding="10dp"
+    android:background="#75F133"
+    android:id="@+id/twResult"
+    android:textStyle="bold"
+    android:textSize="15sp"
+    />
+</LinearLayout>
+
+

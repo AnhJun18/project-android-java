@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ToggleButton
+        android:id="@+id/toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="Bật"
+        android:textOn="Tắt" />
+
+    <ImageView
+        android:id="@+id/imDen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/i1" />
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:gravity="center"
+        android:textOn="Tắt"
+        android:textOff="Bật"
+        android:text="Quạt"
+        android:id="@+id/switchQuat"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/imQuat"
+        android:src="@drawable/quat1"/>
+
+</LinearLayout>

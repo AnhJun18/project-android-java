@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CA4242"
+        android:gravity="center"
+        android:text="Thông Tin Đăng Ký"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/banner1" />
+
+    <EditText
+        android:id="@+id/edtHT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập họ tên"
+        android:textColorHint="#C37979" />
+
+    <EditText
+        android:id="@+id/edtSDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập SĐT"
+        android:inputType="number"
+        android:textColorHint="#C37979" />
+
+    <AutoCompleteTextView
+        android:completionThreshold="1"
+        android:id="@+id/atvTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tỉnh"
+        android:textColorHint="#C37979" />
+
+    <EditText
+        android:id="@+id/edtNgay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chọn ngày"
+        android:textColorHint="#C37979"
+
+        />
+
+    <EditText
+        android:id="@+id/edtGio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chọn giờ"
+        android:textColorHint="#C37979"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CA4242"
+        android:gravity="center"
+        android:text="Chọn Phương Tiện Di Chuyển"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spPhuongTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDangKy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btnThoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thoát" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

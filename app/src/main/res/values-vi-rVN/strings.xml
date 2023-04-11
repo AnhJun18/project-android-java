@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PA Shop</string>
+    <string name="btnDangNhap">Đăng Nhập</string>
+    <string name="edtUserName">Nhập tên đăng nhập</string>
+    <string name="edtPass">Nhập mật khẩu</string>
+</resources>

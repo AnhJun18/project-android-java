@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhap Thong Tin"
+        android:background="#CA4242"
+        android:gravity="center"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap Tai Khoan"
+        android:textColorHint="#482793"
+        android:id="@+id/txtTK"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap mat khau"
+        android:textColorHint="#482793"
+        android:inputType="textPassword"
+        android:id="@+id/txtMK"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ngay sinh"
+        android:textColorHint="#482793"
+        android:id="@+id/txtNS"
+        />
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_rate_review_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#482793"
+        android:id="@+id/txtEmail"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nam"
+            android:checked="true"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nữ"
+            android:checked="false"
+            />
+    </RadioGroup>
+
+    <Button
+        android:drawableBottom="@drawable/ic_baseline_rate_review_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dang Ky"
+        android:id="@+id/btnDK"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#61B3CC"
+            android:id="@+id/twInfor"
+            android:textStyle="bold"
+            android:textSize="30sp"
+  />
+</LinearLayout>
+
+
